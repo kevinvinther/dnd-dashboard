@@ -1,6 +1,8 @@
 ---
 import npcDatabase from '../data/npcs.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL
 ---
 
 <BaseLayout title="NPCs">
@@ -8,7 +10,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {npcDatabase.map((npc) => (
       <li class="bg-white p-4 border rounded-lg shadow hover:shadow-lg transition-shadow">
-        <a href={`/dnd-dashboard/npcs/${npc.id}`} class="flex items-center gap-4">
+        <a href={`..${base}/npcs/${npc.id}`} class="flex items-center gap-4">
           <!-- <img -->
           <!--   src={`/images/npcs/${npc.id}.jpg`} -->
           <!--   alt={`${npc.name}'s portrait`} -->
