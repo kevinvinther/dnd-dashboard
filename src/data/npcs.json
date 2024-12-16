@@ -124,5 +124,43 @@
         "age": "Voksen",
         "gender": "Mand",
         "description": "Varis er kroværten for Merlekroen i Anirion."
+    },
+    {
+        "id": "raskovar",
+        "name": "Dohma Raskovar",
+        "race": "Ork",
+        "profession": "Bartendef?",
+        "age": "Voksen",
+        "gender": "Mand",
+        "description": "Raskovar var bartender og ejer af Hængetræet. Derudover, kørte han også operationen under hængetræet med heksen. Partiet stjal 150 kopper fra hans bar. Han blev drabt af partiet, efter han blev aggressiv da Milnip gerne ville spille kort."
+    },
+    {
+        "id": "hængetræsheks",
+        "name": "Heksen fra Hængetræet",
+        "race": "Heks",
+        "profession": "Heks",
+        "age": "Voksen",
+        "gender": "Kvinde",
+        "description": "Heksen fra Hængetræet var en heks der samarbejdede med Dohma Raskovar. Hun blev dræbt af partiet, da hun angreb dem efter de havde fundet det hemmelige areal under Hængetræet."
+    },
+    {
+        "id": "hængetræshyarl",
+        "name": "Yarl",
+        "race": "Ork",
+        "profession": "?",
+        "age": "Voksen",
+        "gender": "Mand",
+        "description": "Yarl er en ork der gemte sig i Hængetræet, bag en hemmelig dør. Da Amroth og Milnip fandt ham, fik Amroth overbevist ham om at de blot var to spøgelser, og hvad han så ikke var sandt."
+    },
+    {
+        "id": "hinuth",
+        "name": "Hinuth",
+        "race": "?",
+        "profession": "?",
+        "age": "?",
+        "gender": "Måske mand?",
+        "description": "Det er p.t. ubevidst hvem Hinuth er. Partiet har hørt hans navn blive råbt af en gladiator fra den besatte by, samt fået af vide af Robert Narsh, at det kunne være Hinuth der stod bag mareridtene."
     }
+
+
 ]
