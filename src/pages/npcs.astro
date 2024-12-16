@@ -1,0 +1,25 @@
+---
+import npcDatabase from '../data/npcs.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="NPCs">
+  <h1 class="text-3xl font-bold mb-6">NPCs</h1>
+  <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {npcDatabase.map((npc) => (
+      <li class="bg-white p-4 border rounded-lg shadow hover:shadow-lg transition-shadow">
+        <a href={`/npcs/${npc.id}`} class="flex items-center gap-4">
+          <!-- <img -->
+          <!--   src={`/images/npcs/${npc.id}.jpg`} -->
+          <!--   alt={`${npc.name}'s portrait`} -->
+          <!--   class="w-16 h-16 rounded-full border" -->
+          <!-- /> -->
+          <div>
+            <h2 class="text-xl font-semibold">{npc.name}</h2>
+            <p class="text-sm text-gray-500">{npc.profession}</p>
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

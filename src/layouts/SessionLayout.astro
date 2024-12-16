@@ -1,0 +1,13 @@
+---
+const { frontmatter } = Astro.props;
+import BaseLayout from "./BaseLayout.astro";
+---
+<BaseLayout title={frontmatter.title}>
+  <div class="flex items-center justify-center py-10 px-5">
+    <div class="prose prose-lg max-w-3xl">
+      <h1 class="text-2xl font-bold text-gray-800">{frontmatter.title}</h1>
+      <p class="italic text-gray-600">Session foregik {frontmatter.date}</p>
+      <slot />
+    </div>
+  </div>
+</BaseLayout>

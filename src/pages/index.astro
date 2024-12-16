@@ -1,16 +1,24 @@
 ---
-
+import "../styles/global.css";
+import Navigation from "../components/Navigation.astro";
+import EventList from "../components/EventList.astro";
+import NextSession from "../components/NextSession.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Dungeoner og Dragoner">
+	<div class="flex justify-center gap-6 mt-4">
+		<div class="flex-1 max-w-72">
+			<NextSession />
+		</div>
+		<div class="flex-1">
+			<h1 class="text-lg font-bold text-gray-800 mb-2">Reminders</h1>
+			<ul>
+				<li>Jeres karakterer leveler sandsynligvis op til level 5. I skal have sendt et level 5 sheet til mig før næste session.</li>
+			</ul>
+		</div>
+		<div class="flex-1">
+			<EventList width="30vw", height="50vh"/>
+		</div>
+	</div>
+</BaseLayout>

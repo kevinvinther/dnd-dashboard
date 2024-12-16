@@ -1,0 +1,24 @@
+---
+interface Props {
+    title: string;
+    description: string;
+    tags: string[];
+}
+
+const { title, description, tags } = Astro.props;
+---
+
+<div class="border-2 p-4 rounded-lg m-4">
+    <h1 class="nobile-medium text-xl">{title}</h1>
+    <p>{description}</p>
+    <br/>
+    <div class="tags">
+        {
+            tags.map((tag) => (
+                <span  class="tag border-2 p-1 bg-purple-500 border-transparent rounded-md text-center text-white mx-1">
+                    {tag}
+                </span>
+            ))
+        }
+    </div>
+</div>

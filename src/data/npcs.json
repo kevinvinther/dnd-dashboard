@@ -1,0 +1,128 @@
+[
+    {
+        "id": "elcan",
+        "name": "Elcan Fardou",
+        "race": "Halv-elver",
+        "profession": "Etelog",
+        "age": "Voksen",
+        "gender": "Mand",
+        "description": "Elcan er etelog i Aston, og har hjulpet partyet med identificere nogle underlige æg de har fundet. Derudover har Elcan hjulpet partyet med at få kontakt med kongen, og dermed hjælpe kongeriget med at besejre Hirem Yestu."
+    },
+    {
+        "id": "athena",
+        "name": "Athena Rødstrøm",
+        "race": "Menneske",
+        "profession": "Krovært",
+        "age": "Ældre",
+        "gender": "Kvinde",
+        "description": "Athena Rødstrøm er kromutter på Hjulsporets Hvile. Hun bedte partiet om hjælp med Kobolds, og referrerede dem til Elcan, da de kom med æggene."
+    },
+    {
+        "id": "hirlo",
+        "name": "Hirlo",
+        "race": "Sølvdrage",
+        "profession": "Drage",
+        "age": "?",
+        "gender": "Kvindelig",
+        "description": "Hirlo er sølvdragen, hvis æg partiet fandt. Hun gav som tak partiet noget loot, og fløj dem tilbage til Aston."
+    },
+    {
+        "id": "alden-vervian",
+        "name": "Alden Vervian",
+        "race": "Menneske",
+        "profession": "Konge af Askus",
+        "age": "Voksen",
+        "gender": "Mand",
+        "description": "Aldon er konge af Askus, og bor i Aston. Han har sendt partiet ud på en mission for at finde de resterende dele af artifakten Ziros Pyramide."
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin Stejnsrug",
+        "race": "Gnom",
+        "profession": "?",
+        "age": "Ældre",
+        "gender": "Mand",
+        "description": "Boffin er en ældre herre besiddende i Emorion. Han er meget glad for nye gæster, og står for at åbne portalen til Feywild."
+    },
+    {
+        "id": "hirem",
+        "name": "Hirem Yestu",
+        "race": "?",
+        "profession": "?",
+        "age": "?",
+        "gender": "Mand",
+        "description": "Hirem Yestu er en diktator i en by på den anden side af Askus. Han samarbejder med Ikthos, for at blive mere stærk. Han er med i løbet om at få alle delene af Ziros Pyramide."
+    },
+    {
+        "id": "ikthos",
+        "name": "Ikthos",
+        "race": "?",
+        "profession": "Titan",
+        "age": "500+",
+        "gender": "?",
+        "description": "Ikthos er titanen der spærrede Ziros inde i en pyramide, og delte den op i 4 stykker, og gemte dem over verdenen."
+    },
+    {
+        "id": "ziros",
+        "name": "Ziros",
+        "race": "?",
+        "profession": "Titan",
+        "age": "500+",
+        "gender": "?",
+        "description": "Ziros kæmpede mod Ikthos, og tabte. Tabet gjorde, at de endte i en pyramide, i daglig tale Ziros Pyramide."
+    },
+    {
+        "id": "bitz",
+        "name": "Bitz",
+        "race": "Satyr",
+        "profession": "?",
+        "age": "16",
+        "gender": "Mand",
+        "description": "Bitz er en ung satyr, som lavede en aftale med heksen om at få et ekstra ben, så han kunne blive hurtigere. Da benet faldte af, ville han ikke betale, og blev fanget i en krystal, som partiet reddede ham ud af."
+    },
+    {
+        "id": "elaner",
+        "name": "Elaner",
+        "race": "Eladrin",
+        "profession": "?",
+        "age": "Voksen",
+        "gender": "Kvinde",
+        "description": "Elaner er kvinden, som Bitz førte partiet til, da han ville give dem et sted at overnatte, efter de havde hjulpet med at slå heksen ihjel. Elaner fortalte partiet hvordan de kom til Dardjinia, og introducerede dem til Den Store og Mægtige Devin."
+    },
+    {
+        "id": "robert-narsh",
+        "name": "Robert Narsh",
+        "race": "Halv-ork",
+        "profession": "Præst",
+        "age": "Voksen",
+        "gender": "Mand",
+        "description": "Robert Narsh er Amroth’s tætte ven. Robert lærte Amroth om Eilistraee, som han stadig tilbeder i dag. Robert overtog kirken fra sin mor da hun dødede i et Bandit Raid. Da Eilistraee er gudinden for jagt, jager Robert også når han ikke hjælper med kirken, og giver på den måde tilbage til Anorion, ved at få mad til byen"
+    },
+    {
+        "id": "zulni-mot",
+        "name": "Zulni Mot",
+        "race": "Goblin",
+        "profession": "Vagt",
+        "age": "Voksen",
+        "gender": "Kvinde",
+        "description": "Zulni Mot er vagt for Anirion. Hun mødte partiet da de første gik ind i Anirion."
+    },
+    {
+        "id": "aerin-tanor",
+        "name": "Aerin Tanor",
+        "race": "Høj-elver",
+        "profession": "Smed",
+        "age": "Voksen",
+        "gender": "Kvinde",
+        "description": "Aerin er smed i Anirion. Hun hjalp Amroth med at få sit armor repareret."
+    },
+    {
+        "id": "varis-hostront",
+        "name": "Varis Hostront",
+        "race": "Firbolg",
+        "profession": "Krovært",
+        "age": "Voksen",
+        "gender": "Mand",
+        "description": "Varis er kroværten for Merlekroen i Anirion."
+    }
+]

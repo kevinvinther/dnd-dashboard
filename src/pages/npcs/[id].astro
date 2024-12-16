@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import npcDatabase from '../../data/npcs.json';
+import EventList from '../../components/EventList.astro';
+
+const { id } = Astro.params;
+
+const npc = npcDatabase.find((npc) => npc.id === id);
+
+if (!npc) {
+  throw new Error(`NPC med id "${id}" blev ikke fundet`);
+}
+
+export async function getStaticPaths() {
+  return npcDatabase.map((npc) => ({
+    params: { id: npc.id },
+  }));
+}
+---
+
+<BaseLayout title={npc.name}>
+  <div class="w-full min-h-screen">
+    <div class="relative max-w-3xl mx-auto px-4">
+      <div class="mt-16 pb-4 border-b border-gray-300">
+        <h1 class="text-3xl font-bold">{npc.name}</h1>
+        <p class="text-gray-800 mt-2"><strong>Profession:</strong> {npc.profession}</p>
+        
+          <p><strong>Race:</strong> {npc.race}</p>
+          <p><strong>Alder:</strong> {npc.age}</p>
+          <p><strong>Køn:</strong> {npc.gender}</p>
+        
+        <p class="text-gray-800 mt-2">{npc.description}</p>
+      </div>
+
+      <div class="mt-8">
+        <h2 class="text-xl font-semibold mb-4">Begivenheder</h2>
+        <div >
+          <EventList filterTag={npc.name} width="55vw" height="50vh"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
