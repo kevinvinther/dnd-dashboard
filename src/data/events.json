@@ -1,7 +1,7 @@
 [
     [
         {
-            "id": 1,
+
             "name": "Begyndelser",
             "description": "Partiet møder hinanden i Alenveil på Hjulsporets Hvile. Her fortæller kromutteren, Athena Rødstrøm, at partiet kan få gratis logi hvis de hjælper byen med nogle plagende Kobolds.",
             "tags": [
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "id": 2,
+
             "name": "Partiet finder kobold-grotten.",
             "description": "Efter en lang tur i skoven, hvor Faewynn kunne hjælpe de ellers ikke-så-skovvendte partimedlemmer, fandt de endelig en lysning der viste Kobold-grotten.",
             "tags": [
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "id": 3,
+
             "name": "Mystiske æg.",
             "description": "Da partiet har overvundet kampen mod Koboldsne, finder de et par af mystiske æg i en kiste, som Wickie bliver bessiderisk over, og tager i sin taske.",
             "tags": [
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "id": 4,
+
             "name": "Æggene bliver mere mystiske.",
             "description": "Da partiet spørger Athena om hun kender til æggene, siger hun at de ikke virker hjemmehørende til Alenveil. Hun henviser dem til en etolog i Aston, Elcan Fardou.",
             "tags": [
@@ -42,7 +42,7 @@
             ]
         },
         {
-            "id": 5,
+
             "name": "Farlige æg.",
             "description": "Da partiet har fået lov til at sove på Hjulsporets Hvile gratis, får de at vide, at en truende personlighed leder efter æggene.",
             "tags": [
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "id": 6,
+
             "name": "Ankomst til Aston.",
             "description": "Efter en lang rejse, ankommer partiet til Aston, og møder Elcan Fardou.",
             "tags": [
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "id": 7,
+
             "name": "Vent, så han vil have mine æg?",
             "description": "En meget forvirret Wickie, finder ud af at Elcan ikke bare kan kigge på hans æg i kort tid, men har brug for én af æggene for at kigge nærmere på det.",
             "tags": [
@@ -72,7 +72,7 @@
             ]
         },
         {
-            "id": 8,
+
             "name": "Var det en spand?",
             "description": "Før partyet rejser ud efter Elcans efterspurgte bog, låner Calxif toilettet. Tror han.",
             "tags": [
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "id": 9,
+
             "name": "En besværlig dør.",
             "description": "Da partyet finder arkivet som Elcan har ledt dem til, møder de en udfordring i form af en dør der ikke vil åbne sig. Milnip forsøger sig med magt, men ender med at blive svunget tilbage i skoven. De finder endelig ud af, at denne dør blot skal røres ved blidt, for at åbnes.",
             "tags": [
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "id": 10,
+
             "name": "Observationer af Ziros.",
             "description": "Efter en hård kamp mod gobliner der havde hjem i Arkivet, næsten da, finder partiet den efterspugte bog. Trods den har nogle goblin-bid.",
             "tags": [
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "id": 11,
+
             "name": "Sølvdragen",
             "description": "På vej tilbage til Aston, efter at have fundet Elcans bog, hører partiet et kæmpe brøl, og ser efterfølgende en sølvdrage komme flyvende over dem. Foreshadowing?",
             "tags": [
@@ -112,7 +112,7 @@
             ]
         },
         {
-            "id": 12,
+
             "name": "Ziros Pyramide",
             "description": "Da partiet ankommer tilbage efter at have fundet Elcans bog, fortæller Elcan at han er i gang med at undersøge om Ziros Pyramide.",
             "tags": [
@@ -122,7 +122,7 @@
             ]
         },
         {
-            "id": 13,
+
             "name": "Sølvdrageæg",
             "description": "Efter at have undersøgt drageæggene, informerer Elcan partiet om at disse er sølvdrageæg.",
             "tags": [
@@ -133,7 +133,7 @@
             ]
         },
         {
-            "id": 14,
+
             "name": "Ziros og Ikthos.",
             "description": "Elcan fortæller partiet historien om de to titaner, Ziros og Ikthos, og den resulterende artifakt: Ziros Pyramide, som nu er opdelt i 4 stykker.",
             "tags": [
@@ -145,7 +145,7 @@
             ]
         },
         {
-            "id": 15,
+
             "name": "Jagten efter pyramiden.",
             "description": "Elcan informerer jer om, at Hirem Yestu, en diktatorisk personlighed fra en by i den anden ende af landet, forsøger at få fat i alle dele af Ziros Pyramide, således at han kan bruge denne til at nå sine mål.",
             "tags": [
@@ -156,7 +156,7 @@
             ]
         },
         {
-            "id": 16,
+
             "name": "Til Khramlochdir!",
             "description": "Partiet bliver informeret at der er flere sølvdrager i Askus, men at Elcan kun kender til lokationen på én. Denne sidder på toppen af bjerget i Khramlochdir.",
             "tags": [
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "id": 17,
+
             "name": "Ankomst til Khramlochdir.",
             "description": "Efter en knapt så besværlig rejse som sidst, ankommer partiet til Khramlochdir. Den næste udfordring er nu at komme ind for de, lidt, racistiske vagter.",
             "tags": [
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "id": 18,
+
             "name": "Grotten findes!",
             "description": "Partyet havde ikke ligefrem nemt ved at finde indgangen til grotten, der skulle føre mod Sølvdragen, som de nu har erfaret hedder Hirlo, men de fandt den dog endelig.",
             "tags": [
@@ -186,7 +186,7 @@
             ]
         },
         {
-            "id": 19,
+
             "name": "Velkommen til kaoset.",
             "description": "Imens partiet bravt kæmper sig igennem grotten, finder en ny personlighed sig i midten af selv-samme grotte. Efter at have gået i lidt tid, finder han partiet, som han hører vil udrydde ondskab. Dette springer han med på med det samme.",
             "tags": [
@@ -195,7 +195,7 @@
             ]
         },
         {
-            "id": 20,
+
             "name": "Hvem sagde at gamle altere på et bjerg var vigtige?",
             "description": "Da partyet kommer til et T-kryds i grotten, går Calxif og Wickie til højre, men resten af partiet går til venstre. Calxif og Wickie finder et gammelt alter af en art, gemt under et lag af sne. De beslutter sig, at det nok ikke er vigtigt, og går mod resten af partiet.",
             "tags": [
@@ -206,7 +206,7 @@
             ]
         },
         {
-            "id": 21,
+
             "name": "To styks æg, værsågod.",
             "description": "Amroth, da han ser Hirlo, begynder at be intenst. Resten af partiet kommer til en skeptisk Hirlo, der efter noget tid varmer sig op til dem. En skeptisk Wickie går modvilligt med til at give Hirlo æggene, som som betaling giver partyet en bag of holding, en cloak of protection, nogle penge, og en tur hjem.",
             "tags": [
@@ -221,7 +221,7 @@
             ]
         },
         {
-            "id": 22,
+
             "name": "Town heroes.",
             "description": "En sølvdrage er ikke helt et hverdagssyn, så da partiet forlader Hirlos ryg, bliver de med det samme lokalkendisser.",
             "tags": [
@@ -230,7 +230,7 @@
             ]
         },
         {
-            "id": 23,
+
             "name": "Er der en konge?",
             "description": "Et træt parti får af vide af Elcan, at han har snakket med Kong Alden om deres potentiale, og at kongen gerne vil snakke yderliger med dem, om muligheden for at finde de resterende dele af Ziros Pyramide, således at Hirem Yestu ikke tillæger sig mere magt.",
             "tags": [
@@ -242,7 +242,7 @@
             ]
         },
         {
-            "id": 24,
+
             "name": "Emorion og Feywild.",
             "description": "Partiet får opgaven af Kong Alden, at de skal finde det første stykke af Ziros Pyramide i Feywild. Her skal de mødes med dronning Uriliss, som kan give dem flere informationer. Kongen informerer partiet om at de kan finde en permanent portal til Feywild i Emorion.",
             "tags": [
@@ -254,7 +254,7 @@
             ]
         },
         {
-            "id": 25,
+
             "name": "Ingen æg, ingen Wickie.",
             "description": "Da Wickie mistede sine æg, besluttede han sig for, at han hellere ville ud på vandet og opleve verden, end han ville gå denne sorg igennem igen. Vi ses, Wickie!",
             "tags": [
@@ -263,7 +263,7 @@
             ]
         },
         {
-            "id": 26,
+
             "name": "Rejsende! Rejsende!",
             "description": "Partiet ankommer til Emorion, og møder en energisk ældre herre ved navn Boffin Stejnsrug. Boffin er meget glad for at se nogle nye mennesker, som ikke allerede kommer fra Emorion. Denne glæder stråler meget klart ud.",
             "tags": [
@@ -272,7 +272,7 @@
             ]
         },
         {
-            "id": 27,
+
             "name": "De fire tårne.",
             "description": "Partiet får informationen at de skal aktivere en krystal i fire forskellige tårne, for at aktivere portalen til Feywild.",
             "tags": [
@@ -281,7 +281,7 @@
             ]
         },
         {
-            "id": 28,
+
             "name": "Alice i Eventyrland.",
             "description": "Partiet falder hver især gennem portalen, og kommer til en fortryllende ny verden. Ja, i hvert fald fortryllende for en del af partiet.",
             "tags": [
@@ -289,7 +289,7 @@
             ]
         },
         {
-            "id": 29,
+
             "name": "Han ville bare være hurtigere!",
             "description": "Efter at have været kort tid i Feywild farer Amroth vildt. Han kommer ud til en sø, hvor han ser en ung satyr fanget i en Krystal. Satyren informerer Amroth at han er blevet fanget i denne krystal, fordi han ikke kunne betale sin gæld af til en heks. Resten af partiet finder Amroth, og hjælper med at befrie satyren, hvis navn de lærer er Bitz.",
             "tags": [
@@ -300,7 +300,7 @@
             ]
         },
         {
-            "id": 30,
+
             "name": "Min Frøken Raskovar.",
             "description": "Bitz fører partiet over til en bar, Hængetræet, hvor heksen befinder sig.",
             "tags": [
@@ -311,7 +311,18 @@
             ]
         },
         {
-            "id": 31,
+
+            "name": "Amroth det venlige spøgelse.",
+            "description": "Efter at have fundet en Ork, Yarl, der gemmer sig bag en hemmelig dør i Hængetræet, overbeviser Amroth ham om at ham og Milnip blot er spøgelser.",
+            "tags": [
+                "Yarl",
+                "Hængetræet",
+                "Amroth",
+                "Milnip"
+            ]
+        },
+        {
+
             "name": "Rasko er ikke længere, Rasko Var.",
             "description": "Efter den hidtil længste og hårdeste kamp for partiet, får de dræbt heksen og Calxif får erhvervet sig et nyt medlem til partiet, en lille muldvarpe-lignende væsen hun kalder Toby.",
             "tags": [
@@ -323,7 +334,7 @@
             ]
         },
         {
-            "id": 32,
+
             "name": "Det er altid solrigt i Feywild.",
             "description": "I Hængetræet finder partiet et skøde til et hus. Nu kan partiet endelig få sig den bar, de altid har drømt om!",
             "tags": [
@@ -331,7 +342,7 @@
             ]
         },
         {
-            "id": 33,
+
             "name": "Endnu en lille by?",
             "description": "Bitz fortæller om en lille nærliggende by, hvor partiet kan få gratis logi og mad af Bitz, nemlig Luminagad.",
             "tags": [
@@ -340,7 +351,7 @@
                 ]
         },
         {
-            "id": 34,
+
             "name": "Den store og mægtige.",
             "description": "I Luminagad får partiet et nyt tilhæng: Den store og mægtige Devin. Devin har brug for kammeratskab, og leder derfor partiet med mod Dardjinia... Eller så langt, som han nu kan komme. Imens siger partiet farvel til Bitz.",
             "tags": [
@@ -351,7 +362,7 @@
                 ]
         },
         {
-            "id": 35,
+
             "name": "Tak Toby!",
             "description": "I en krystgrotte på vej mod Dardjinia, hører partiet pludselig nogle stemmer. De bestemmer at sende Toby efter dem, som viser partiet vej til hvor de befinder sig.",
             "tags": [
@@ -360,7 +371,7 @@
             ]
         },
         {
-            "id": 36,
+
             "name": "Tak for alt, Toby!",
             "description": "Partiet kommer i kamp mod en gruppe af Darklings. I denne kamp, mister partiet desværre Toby. Vi vil altid huske dig!",
             "tags": [
@@ -368,7 +379,7 @@
             ]
         },
         {
-            "id": 37,
+
             "name": "Kvæk, kvæk, nu vil jeg væk.",
             "description": "Lige før partiet får lov til at ankomme til den næste by, bliver de overfaldet af en gruppe af frømænd. Heldigvis har de Devin med, der viser sig at kunne skræmme disse væsener væk med lethed.",
             "tags": [
@@ -376,7 +387,7 @@
             ]
         },
         {
-            "id": 38,
+
             "name": "Har du nogensinde tænkt på, at vi alle har et ego der egentlig ikke er os?",
             "description": "Imens resten af partiet heltemodigt kæmper mod de angribende frømænd, beslutter Calxif sig for at tage en bid af en kæmpesvamp. Denne svamp viser sig at give Calxif nogle interessante effekter.",
             "tags": [
@@ -385,7 +396,7 @@
             ]
         },
         {
-            "id": 39,
+
             "name": "Farvel, Devin!",
             "description": "Calxif ser Devin flyve op i himmelen, indtil han til sidst er helt væk. Resten ser ham løbe væk fra dem, og tilbage til hvor de kom fra. Uanset hvad, var han en god makker!",
             "tags": [
@@ -394,7 +405,7 @@
             ]
         },
         {
-            "id": 40,
+
             "name": "Trist, gråt, og slet ikke godt.",
             "description": "Da partiet ankommer til en by de kan stoppe i, før de når til Dardjinia, opdager hele byen virker meget anderledes fra resten af Feywild. Den er trist og grå, og beboerne går i en quasi-zombie tilstand.",
             "tags": [
@@ -403,7 +414,7 @@
             ]
         },
         {
-            "id": 41,
+
             "name": "Vent, er de faktisk zombier?",
             "description": "Milnip opdager efter at have castet Detect Magic, at alle beboerne virker til at være under en form for Enchantment besværgelse.",
             "tags": [
@@ -411,7 +422,7 @@
             ]
         },
         {
-            "id": 42,
+
             "name": "Hvis ikke de ser lyset committer jeg war crimes!",
             "description": "Da partiet finder en kirke med brædder plastret til på alle mulige indgange, bliver de forsikret om at kirken er vejen ud for beboerne. Denne idé bliver kun forstærket, da Amroth hører i en bøn til Eilistraee at de blot skal se lyset. Som løsning, brænder de bygningen ned, imens de slås med nogle vagter. Da kirken er brændt ned, går resten af de levende beboere tilbage til deres dagligdag, i deres stadig quasi-zombie tilstand.",
             "tags": [
@@ -421,7 +432,7 @@
             ]
         },
         {
-            "id": 43,
+
             "name": "Elskede at drømme, drømmer om... en skikkelse?",
             "description": "Efter at have forladt den meget triste by, begynder hver af spillerne af få drømme med en specifik skikkelse. Denne skikkelse viser sig at gå igen I hver af deres drømme. Endvidere, virker det til at hver af drømmene har omhandlet deres frygter.",
             "tags": [
@@ -429,7 +440,7 @@
             ]
         },
         {
-            "id": 44,
+
             "name": "I got a pocket, got a pocket full of timelessness.",
             "description": "Imens partiet er på vej mod Dardjinia, kommer de til et lille areal, hvor det virker som om at tiden er stoppet. Der hænger blade i luften, og partiet kan ikke flytte på nogen ting indenfor en vis grænse.",
             "tags": [
@@ -437,7 +448,7 @@
             ]
         },
         {
-            "id": 45,
+
             "name": "Anirion, home, at least it was before I fell into that portal.",
             "description": "Imens partiet er på vej mod Dardjinia, kommer de til en lysning, hvor Amroth ser en af de byer han var mest i, ved navn Anirion, før han faldt igennem portalen og kom til det materielle plan.",
             "tags": [
@@ -446,7 +457,7 @@
             ]
         },
         {
-            "id": 46,
+
             "name": "Gobliner igen?",
             "description": "Det viser sig at Anirion er blevet angrebet en del siden Amroth sidst var på besøg. Byen virker til at have fundet årsagen, som de mener er en grotte de kalder Den Lysende Grotte. Partiet går med Amroths barndomsven, Robert Narsh til grotten, for at udrydde faren.",
             "tags": [
