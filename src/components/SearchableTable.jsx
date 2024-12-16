@@ -148,7 +148,7 @@ function TableHeader({ label, sortKey, sortConfig, onClick }) {
   // Determine an arrow indicator for the sorted column
   let arrow = "";
   if (sortConfig.key === sortKey) {
-    arrow = sortConfig.direction === "asc" ? "▲" : "▼";
+    arrow = sortConfig.direction === "asc" ? " ⤴️" : " ⤵️ ";
   }
 
   return (
