@@ -1,0 +1,12 @@
+---
+const { title, url, date } = Astro.props;
+---
+
+<div class="bg-white p-4 border rounded-lg shadow hover:shadow-lg transition-shadow">
+  <a href={url} class="flex items-center gap-4">
+    <div>
+      <h2 class="text-xl font-semibold">{title}</h2>
+      <p class="text-sm text-gray-500">{date}</p>
+    </div>
+  </a>
+</div>
