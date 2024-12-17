@@ -2,7 +2,7 @@
 const { frontmatter } = Astro.props;
 import BaseLayout from "./BaseLayout.astro";
 ---
-<BaseLayout title={frontmatter.title}>
+<BaseLayout pageTitle={frontmatter.title}>
   <div class="flex items-center justify-center py-10 px-5">
     <div class="prose prose-lg max-w-3xl">
       <h1 class="text-2xl font-bold text-gray-800">{frontmatter.title}</h1>

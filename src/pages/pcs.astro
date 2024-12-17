@@ -7,7 +7,7 @@ const sortedPcs = pcDatabase.sort(function(a,b){ return ('' + a.name).localeComp
 const base = import.meta.env.BASE_URL
 ---
 
-<BaseLayout title="PCs">
+<BaseLayout pageTitle="PCs">
   <h1 class="text-3xl font-bold mb-6">PCs</h1>
   <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {sortedPcs.map((pc) => (

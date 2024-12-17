@@ -7,7 +7,7 @@ const sortedLocations = locationDatabase.sort(function(a,b){ return ('' + a.name
 const base = import.meta.env.BASE_URL
 ---
 
-<BaseLayout>
+<BaseLayout pageTitle="Lokationer">
   <h1 class="text-3xl font-bold mb-6">Lokationer</h1>
   <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {sortedLocations.map((location) => (
