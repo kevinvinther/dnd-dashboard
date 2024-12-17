@@ -8,7 +8,7 @@ const { id } = Astro.params;
 const location = locationDatabase.find((location) => location.id === id);
 
 if (!location) {
-  throw new Error(`By med id "${id}" blev ikke fundet.`);
+  throw new Error(`Lokation med id "${id}" blev ikke fundet.`);
 }
 
 export async function getStaticPaths() {
