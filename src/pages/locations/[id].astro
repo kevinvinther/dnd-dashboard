@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import locationDatabase from '../../data/locations.json';
+import EventList from '../../components/EventList.astro';
+
+const { id } = Astro.params;
+
+const location = locationDatabase.find((location) => location.id === id);
+
+if (!location) {
+  throw new Error(`By med id "${id}" blev ikke fundet.`);
+}
+
+export async function getStaticPaths() {
+  return locationDatabase.map((location) => ({
+    params: { id: location.id },
+  }));
+}
+---
+
+<BaseLayout title={location.name}>
+  <div class="w-full min-h-screen">
+    <div class="relative max-w-3xl mx-auto px-4">
+      <div class="mt-16 pb-4 border-b border-gray-300">
+        <h1 class="text-3xl font-bold">{location.name}</h1>
+        <p class="text-gray-800 mt-2"><strong>Type:</strong> {location.type}</p>
+
+          <p><strong>Region:</strong> {location.region}</p>
+        <p class="text-gray-800 mt-2">  <p><strong>Beskrivelse:</strong> {location.description}</p>
+          <p><strong>Noter:</strong> {location.notes}</p>
+
+        </p>
+      </div>
+
+      <div class="mt-8">
+        <h2 class="text-xl font-semibold mb-4">Begivenheder</h2>
+        <div >
+          <EventList filterTag={location.name} width="55vw" height="50vh"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

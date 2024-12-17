@@ -1,0 +1,29 @@
+---
+import locationDatabase from '../data/locations.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const sortedLocations = locationDatabase.sort(function(a,b){ return ('' + a.name).localeCompare(b.name);});
+
+const base = import.meta.env.BASE_URL
+---
+
+<BaseLayout title="NPCs">
+  <h1 class="text-3xl font-bold mb-6">NPCs</h1>
+  <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {sortedLocations.map((location) => (
+      <li class="bg-white p-4 border rounded-lg shadow hover:shadow-lg transition-shadow">
+        <a href={`${base}/locations/${location.id}`} class="flex items-center gap-4">
+          <!-- <img -->
+          <!--   src={`/images/npcs/${npc.id}.jpg`} -->
+          <!--   alt={`${npc.name}'s portrait`} -->
+          <!--   class="w-16 h-16 rounded-full border" -->
+          <!-- /> -->
+          <div>
+            <h2 class="text-xl font-semibold">{location.name}</h2>
+            <p class="text-sm text-gray-500">{location.region}</p>
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

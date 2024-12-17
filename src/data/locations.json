@@ -1,0 +1,130 @@
+[
+  {
+    "id": "aston",
+    "name": "Aston",
+    "type": "By",
+    "region": "Askus",
+    "description": "Aston er en by i Askus, som ligger opad i sydsiden ved Astonbjerget, samt omringet i både øst og vest af bjerget.",
+    "notes": "Aston er byen hvor Elcan hører til, og hvis monark partiet arbejder for."
+  },
+  {
+    "id": "akvali",
+    "name": "Akvali",
+    "type": "By",
+    "region": "Askus",
+    "description": "Akvali er hovedstaden i Askus.",
+    "notes": ""
+  },
+  {
+    "id": "alenveil",
+    "name": "Alenveil",
+    "type": "By",
+    "region": "Askus",
+    "description": "Alenveil er en lille landsby i Askus. Nær Alenveil ligger en stor skov, som ligger baggrund til mange myter og historier blandt beboerne i Alenveil. Alenveil ligger syd, cirka 10 dages rejse fra Akvali.",
+    "notes": "Alenveil var byen i startede jeres eventyr i."
+  },
+  {
+    "id": "emorion",
+    "name": "Emorion",
+    "type": "By",
+    "region": "Askus",
+    "description": "Emorion en meget lille by, med få huse centreret i bymidten. Byen har ikke nogen kroer, butikker eller lignende, og er kun de få huse. Helt i bymidten er der et stort træ, som agerer som portal til *Feywild*.",
+    "notes": "Byen med portalen til Feywild"
+  },
+  {
+    "id": "alenveil-koboldgrotte",
+    "name": "Alenveil Koboldgrotte",
+    "type": "Grotte",
+    "region": "Askus",
+    "description": "En lille grotte lidt udenfor Alenveil, hvor få Kobolds boede.",
+    "notes": "Her kom partiet ind i deres første combat."
+  },
+  {
+    "id": "khramlochdir",
+    "name": "Khramlochdir",
+    "type": "By",
+    "region": "Askus",
+    "description": "Khramlochdir er en dværgeby. Byen ligger i bjerget hvor Hirlo har hjem på toppen. Byen består af en masse plateuer.",
+    "notes": ""
+  },
+  {
+    "id": "vabuury",
+    "name": "Vabuury",
+    "type": "By",
+    "region": "Askus",
+    "description": "Vabuury er Hirem Yestu's hjemsted.",
+    "notes": ""
+  },
+  {
+    "id": "askus",
+    "name": "Askus",
+    "type": "Region",
+    "region": "Askus",
+    "description": "Askus er kontinentet hvorpå eventyret hidtil har foregået. Det er et ø-kontinent mod vest.",
+    "notes": ""
+  },
+  {
+    "id": "mystskoven",
+    "name": "Mystskoven",
+    "type": "Skov",
+    "region": "Askus",
+    "description": "Mystskoven er en skov øst for Aston, kendt for at være hjem til Tidernes Arkiv.",
+    "notes": "Det var i Mystskoven at partiet fandt Tidernes Arkiv, hvori Observationer af Ziros blev fundet."
+  },
+  {
+    "id": "tidernes-arkiv",
+    "name": "Tidernes Arkiv",
+    "type": "Arkiv",
+    "region": "Askus",
+    "description": "Tidernes Arkiv er et gammelt arkiv med bøger til arkivering. Arkivet er blevet invaderet af gobliner, der har gjort en del af det til deres hjem.",
+    "notes": "Tidernes arkiv er arkivet som Elcan sendte partiet til, for at hende Observationer af Ziros."
+  },
+  {
+    "id": "anirion",
+    "name": "Anirion",
+    "type": "By",
+    "region": "Askus - Feywild",
+    "description": "Anirion er en lille by besiddende for enden af en klippe. Igennem byen flyder en flod fra et vandfald, hvis vand går opad, fremfor ned.",
+    "notes": "Dette er en by som Amroth besøgte meget før han kom med i eventyrene med resten af gruppen."
+  },
+  {
+    "id": "dadjinia",
+    "name": "Dadjinia",
+    "type": "By",
+    "region": "Askus - Feywild",
+    "description": "Dadjinia er en storby i Feywild. Dronningen af Askus i Feywild, Uriliss er bosat i Dadjinia.",
+    "notes": ""
+  },
+  {
+    "id": "luminagad",
+    "name": "Luminagad",
+    "type": "By",
+    "region": "Askus - Feywild",
+    "description": "Luminagad er en lille by i Feywild, tæt på en stor sø.",
+    "notes": "Dette er byen som Bitz førte partiet til, og hvor partiet mødte Devin."
+  },
+  {
+    "id": "hængetræet",
+    "name": "Hængetræet",
+    "type": "Bar",
+    "region": "Askus - Feywild",
+    "description": "Hængetræet af en bar. Den var ejet af Dohma Raskovar, indtil partiet udryddede ham.",
+    "notes": "Det var denne, hvor partiet fandt en undergrundsoperation (vitterligt under baren), hvor partiet blandt andet fik en husskøde, Psi lenses, m.m."
+  },
+  {
+    "id": "krystalgrotten-ved-luminagad",
+    "name": "Krystalgrotten ved Luminagad",
+    "type": "Grotte",
+    "region": "Askus - Feywild",
+    "description": "Grotte der forbinder Luminagad og Den Grå By.",
+    "notes": "Her fandt partiet darklings"
+  },
+  {
+    "id": "den-grå-by",
+    "name": "Den Grå By",
+    "type": "By",
+    "region": "Askus - Feywild",
+    "description": "By hvor alle beboerne går i en quasi-zombie tilstand.",
+    "note": "Det var i denne by partiet brændte en kirke ned, da de tænkte at det ville redde beboerne."
+  }
+]
