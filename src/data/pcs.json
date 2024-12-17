@@ -1,0 +1,42 @@
+[
+  {
+    "id": "milnip",
+    "name": "Milnip Gilfir",
+    "race": "Gnom",
+    "class": "Sorcerer",
+    "player": "Christina",
+    "active": "Aktiv"
+  },
+  {
+    "id": "faewynn",
+    "name": "Faewynn Eruas",
+    "race": "Wood-Elver",
+    "class": "Ranger",
+    "player": "Belle",
+    "active": "Aktiv"
+  },
+  {
+    "id": "wickie",
+    "name": "Wickie Foambreaker",
+    "race": "Dværg",
+    "class": "Barbarian",
+    "player": "William",
+    "active": "Ikke Aktiv"
+  },
+  {
+    "id": "calxif",
+    "name": "Calxif Fegglegaggle",
+    "race": "Gnom",
+    "class": "Rogue",
+    "player": "Puk",
+    "active": "Aktiv"
+  },
+  {
+    "id": "amroth",
+    "name": "Amroth Nighstar",
+    "race": "Drow-elver",
+    "class": "Paladin/Warlock",
+    "player": "Daniel",
+    "active": "Aktiv"
+  }
+]
