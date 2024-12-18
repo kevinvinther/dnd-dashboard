@@ -1,8 +1,24 @@
 ---
 import React from 'react';
-import ItemsTable from '../components/SearchableTable.jsx';
-import MinimalLayout from '../layouts/MinimalLayout.astro'
+import SearchableTable from '../components/SearchableTable.jsx';
+import MinimalLayout from '../layouts/MinimalLayout.astro';
+
+import itemsData from '../data/inventory.json';
+
+const columns = [
+  { key: "name", label: "Item" },
+  { key: "quantity", label: "Mængde" },
+  { key: "owner", label: "Ejer" },
+  { key: "category", label: "Kategori" },
+  { key: "value", label: "Værdi" },
+  { key: "weight", label: "Vægt (lb)" },
+  { key: "rarity", label: "Sjældenhed" },
+  { key: "description", label: "Beskrivelse"},
+  { key: "notes", label: "Noter"}
+];
+
+
 ---
 <MinimalLayout pageTitle="Inventory">
-      <ItemsTable client:visible />
+  <SearchableTable data={itemsData.items} columns={columns} client:visible />
 </MinimalLayout>
